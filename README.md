@@ -32,7 +32,7 @@ TEAM14 저가 화장품 트렌드 소비자 반응 분석 (다이소 뷰티)
 pip install selenium beautifulsoup4 pandas openpyxl
 pip install matplotlib wordcloud streamlit webdriver-manager
 
-- 2단계: crawl.py 를 실행해 크롤링 및 분석 (약 6분 소요)
+- 2단계: crawl.py 를 실행해 크롤링 및 분석
 
 - 3단계: dashboard.py 를 실행해(터미널에 streamlit run dashboard.py 입력) 시각화 확인
 
@@ -58,7 +58,7 @@ pip install matplotlib wordcloud streamlit webdriver-manager
 
 <구현 결과>
 1. crawl.py
-- 제품당 최대 100개 리뷰 수집, 전처리(빈 리뷰·중복 제거) 후 분석
+- 제품당 최대 300개 리뷰 수집, 전처리(빈 리뷰·중복 제거) 후 분석
 - 각 리뷰에 대해 긍정/부정/중립 감성 분류 및 속성별(가격, 효과, 텍스처, 재구매의사, 패키징) 키워드 언급 여부 분석
 - 결과를 CSV, 엑셀(시트 3개) 형태로 저장
 
